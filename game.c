@@ -22,7 +22,8 @@ void game() {
         }
     }
     if (num == mNum) {
-        printf("CONGRATULATIONS, YOU GUESSED !!!!!. The Number Was %d", mNum);
+        printf("\n\n\n\n\t\t-------------CONGRATULATIONS, YOU GUESSED !!!!!----------------\n\n\n\n");
+        printf("The number was : %d\n\n", mNum);
     }
 
     if (num != mNum) {
@@ -40,9 +41,7 @@ void rules() {
 
 int main() {
 
-
-
-    printf("\n\n\n\n----------------- Welcome to the Game ! -----------------\n\n\n\n");
+    printf("\n\n\n\n\t\t----------------- Welcome to the Game ! -----------------\n\n\n\n");
     printf("RULES OF THE GAME : \n\n");
     rules();
 
